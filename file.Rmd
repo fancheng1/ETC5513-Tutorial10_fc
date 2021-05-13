@@ -15,6 +15,10 @@ library(ggplot2)
 .libPaths()
 ```
 ```{r}
-renv::
+renv::init()
+```
+
+```{r}
+renv::snapshot()
 ```
 
